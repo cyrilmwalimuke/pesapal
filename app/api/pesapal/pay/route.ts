@@ -13,8 +13,8 @@ export async function POST(req: Request) {
       currency: "KES",
       amount: amount,
       description: "VIP Subscription",
-      callback_url: "http://localhost:3000/payment-success",
-      notification_id: "YOUR_IPN_ID",
+      callback_url: "https://pesapal-rho.vercel.app/payment-success",
+      notification_id: "1f5f48b1-cca8-4ca3-b7ab-daae520a0ace",
       billing_address: {
         email_address: email,
         first_name: "Customer",
