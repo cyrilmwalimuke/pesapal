@@ -7,7 +7,7 @@ export default function PayButton() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         email: "okwomicyril@gmail.com",
-        amount: 10,
+        amount: 200,
       }),
     });
 
